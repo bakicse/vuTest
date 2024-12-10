@@ -7,7 +7,7 @@ namespace vuTest.Controllers
     [Route("api/[controller]")]
     public class SubscriptionController : Controller
     {
-        [HttpPost]
+        [HttpGet]
         public IActionResult GenerateRandomJson()
         {
             var subscription = new SubscriptionModel
