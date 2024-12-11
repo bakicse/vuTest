@@ -18,7 +18,7 @@ namespace vuTest.Controllers
                 Currency = "BDT",
                 StartDate = DateTime.UtcNow.ToString("yyyy-MM-dd"),
                 ExpiryDate = DateTime.UtcNow.AddDays(30).ToString("yyyy-MM-dd"),
-                Frequency = "WEEKLY",
+                Frequency = "MONTHLY",
                 SubscriptionType = "BASIC",
                 MaxCapRequired = "False",
                 MerchantShortCode = "01307153119",
@@ -26,7 +26,7 @@ namespace vuTest.Controllers
                 PaymentType = "FIXED",
                 RedirectUrl = "https://bakitest.com",
                 SubscriptionRequestId = Guid.NewGuid().ToString(),
-                SubscriptionReference = "01712345678",
+                SubscriptionReference = "01757837540",
                 CKey = "000001"
             };
 
