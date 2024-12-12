@@ -18,7 +18,7 @@ namespace vuTest.Controllers
                 Currency = "BDT",
                 StartDate = DateTime.UtcNow.ToString("yyyy-MM-dd"),
                 ExpiryDate = DateTime.UtcNow.AddDays(30).ToString("yyyy-MM-dd"),
-                Frequency = "MONTHLY",
+                Frequency = "DAILY",
                 SubscriptionType = "BASIC",
                 MaxCapRequired = "False",
                 MerchantShortCode = "01307153119",
